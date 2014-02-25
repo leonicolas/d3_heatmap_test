@@ -1,0 +1,94 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.loading {
+  position: absolute;
+  display: block;
+  z-index: 100000;
+  margin-top: 100px;
+  left: 42%;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#map {
+  background-color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 600px;
+  min-height: 600px;
+  position: relative;  
+}
+
+#map path { 
+  fill: #fff7ec; 
+  stroke: #ccc;
+  stroke-linejoin: round;
+}
+
+#map .temperature_1 { fill: #fff7ec; }
+#map .temperature_2 { fill: #fee8c8; }
+#map .temperature_3 { fill: #fdd49e; }
+#map .temperature_4 { fill: #fdbb84; }
+#map .temperature_5 { fill: #fc8d59; }
+#map .temperature_6 { fill: #ef6548; }
+#map .temperature_7 { fill: #d7301f; }
+#map .temperature_8 { fill: #b30000; }
+#map .temperature_9 { fill: #7f0000; }
+
+#labels {
+  position: absolute;
+  z-index: 100;
+  margin-top: 150px;
+}
+#labels > div {
+  width: 20px;
+  height: 20px;
+}
+
+#labels .temperature_1 { background-color: #fff7ec; }
+#labels .temperature_2 { background-color: #fee8c8; }
+#labels .temperature_3 { background-color: #fdd49e; }
+#labels .temperature_4 { background-color: #fdbb84; }
+#labels .temperature_5 { background-color: #fc8d59; }
+#labels .temperature_6 { background-color: #ef6548; }
+#labels .temperature_7 { background-color: #d7301f; }
+#labels .temperature_8 { background-color: #b30000; }
+#labels .temperature_9 { background-color: #7f0000; }
+
+#labels > div > span {
+  color: #888;
+  margin-left: 25px;
+  font-size: 12px;
+}
